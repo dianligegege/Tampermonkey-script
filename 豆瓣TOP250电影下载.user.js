@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         豆瓣TOP250电影下载
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  添加一个一键查找豆瓣电影TOP250（https://movie.douban.com/top250）的资源的按钮。
 // @author       dianli
 // @supportURL   dianligegege@163.com
 // @downloadURL		https://github.com/dianligegege/Tampermonkey-script
-// @match        https://movie.douban.com/top250
+// @match        https://movie.douban.com/top250*
 // @grant        none
 // @require       https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
 // ==/UserScript==

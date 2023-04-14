@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://juejin.cn/post/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=juejin.cn
+// @grant        none
+// ==/UserScript==
+
+(function() {
+  'use strict';
+    const style = document.createElement('style');
+    document.body.appendChild(style);
+    style.innerText = `.article-content h3::after, .article-content h3::before { animation: null !important }`;
+})();
